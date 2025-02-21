@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.automation.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.728 s <<< FAILURE! - in com.automation.TestRunner
+TestRunner.Cucumber  Time elapsed: 2.328 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make field private java.lang.String java.lang.Throwable.detailMessage accessible: module java.base does not "opens java.lang" to unnamed module @4d3167f4
+

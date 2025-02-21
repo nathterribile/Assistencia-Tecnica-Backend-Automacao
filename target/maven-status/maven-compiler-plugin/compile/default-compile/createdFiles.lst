@@ -1,0 +1,11 @@
+com\automation\resources\rest\RestRequests.class
+com\automation\specs\ValidationSpecs.class
+com\automation\utils\EnvironmentUtils.class
+com\automation\utils\ParamToString.class
+com\automation\config\Configuration.class
+com\automation\resources\rest\Resources.class
+com\automation\utils\JsonUtilsMain.class
+com\automation\config\ConfigurationManager.class
+com\automation\specs\PropostaSpecs.class
+com\automation\specs\InitialStateSpecs.class
+com\automation\utils\LogUtils.class

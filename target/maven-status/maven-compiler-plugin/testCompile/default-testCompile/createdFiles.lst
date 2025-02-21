@@ -1,0 +1,12 @@
+com\automation\utils\DataValidaUtils.class
+com\automation\steps\DeletarUsuarioSteps.class
+com\automation\steps\LogarUsuarioSteps.class
+com\automation\steps\CadastrarOsSteps.class
+com\automation\steps\MostrarTodasOsSteps.class
+com\automation\utils\CpfUtils.class
+com\automation\steps\CadastrarUsuarioSteps.class
+com\automation\utils\JsonUtils.class
+com\automation\TestRunner.class
+com\automation\utils\FeriadosUtils.class
+com\automation\steps\ProcurarOsPorIdSteps.class
+com\automation\steps\AlterarOsSteps.class

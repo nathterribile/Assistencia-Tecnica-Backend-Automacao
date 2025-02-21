@@ -1,0 +1,44 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "type": "array",
+    "default": [],
+    "items": {
+        "type": "object",
+        "required": [
+            "id",
+            "proprietario",
+            "tipoEquipamento",
+            "entradaLab",
+            "defeito",
+            "previsaoEntrega",
+            "statusConcerto",
+            "observacoes"
+        ],
+        "properties": {
+            "id": {
+                "type": "integer"
+            },
+            "proprietario": {
+                "type": "string"
+            },
+            "tipoEquipamento": {
+                "type": "string"
+            },
+            "entradaLab": {
+                "type": "string"
+            },
+            "defeito": {
+                "type": "string"
+            },
+            "previsaoEntrega": {
+                "type": "string"
+            },
+            "statusConcerto": {
+                "type": "string"
+            },
+            "observacoes": {
+                "type": "string"
+            }
+        }
+    }
+}

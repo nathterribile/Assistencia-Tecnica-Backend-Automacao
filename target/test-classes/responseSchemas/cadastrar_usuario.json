@@ -1,0 +1,24 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "type": "object",
+    "default": {},
+    "required": [
+        "usuario",
+        "senha",
+        "id"
+    ],
+    "properties": {
+        "usuario": {
+            "type": "string",
+            "default": ""
+        },
+        "senha": {
+            "type": "string",
+            "default": ""
+        },
+        "id": {
+            "type": "integer",
+            "default": 0
+        }
+    }
+}
