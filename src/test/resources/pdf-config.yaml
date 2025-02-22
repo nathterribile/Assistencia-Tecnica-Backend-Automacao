@@ -6,7 +6,7 @@ displayScenario: true
 displayDetailed: true
 
 summaryConfig:
-  title: Bradesco Seguros - TCAP - Novos Negocios
+  title: MyAssist Backend Automation
   dataBackgroundColor: 4F0CC8
   titleColor: FF0000
   dateColor: 969696
