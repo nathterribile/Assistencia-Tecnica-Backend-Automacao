@@ -8,9 +8,9 @@
 <title>Automation Back-End - Report HTML</title>
 <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
 <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
-<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
 <style type="text/css"></style></head><body class="spa bdd-report dark">
   <div class="app">
     <div class="layout">
@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Automation Back-End - Automation test</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">fev. 21, 2025 10:55:30 PM</span></a>
+<a href="#"><span class="badge badge-primary">fev. 25, 2025 01:24:18 PM</span></a>
 </li>
 </ul>
 </div>
@@ -66,13 +66,13 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>fev. 21, 2025 10:55:30 PM</h3>
+<h3>fev. 25, 2025 01:24:18 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>fev. 21, 2025 10:55:33 PM</h3>
+<h3>fev. 25, 2025 01:24:21 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -162,7 +162,7 @@
 </div></div>
 <script>
 var timeline = {
-"procurar_os_por_id":2.015
+"mostrar_todas_os":2.124
 };
 </script>
 <div class="row">
@@ -172,7 +172,7 @@ var timeline = {
 <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
-<td>@procurar_os_por_id</td>
+<td>@mostrar_todas_os</td>
 <td>1</td>
 <td>0</td>
 <td>0</td>
@@ -246,7 +246,7 @@ eventsCount: 5,
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
 <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">@procurar_os_por_id</a>
+<a class="dropdown-item" href="#">@mostrar_todas_os</a>
 </ul>
 </li>
 </ul>
@@ -257,9 +257,9 @@ eventsCount: 5,
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">procurar_os_por_id</p>
+            <p class="name">mostrar_todas_os</p>
             <p class="text-sm">
-              <span>22:55:31</span> / <span>00:00:02:015</span>
+              <span>13:24:18</span> / <span>00:00:02:124</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -267,13 +267,14 @@ eventsCount: 5,
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">procurar_os_por_id</h5>
-<span class='badge badge-success'>02.21.2025 22:55:31</span>
-<span class='badge badge-danger'>02.21.2025 22:55:33</span>
-<span class='badge badge-default'>00:00:02:015</span>
+<h5 class="test-status text-pass">mostrar_todas_os</h5>
+<span class='badge badge-success'>02.25.2025 13:24:18</span>
+<span class='badge badge-danger'>02.25.2025 13:24:20</span>
+<span class='badge badge-default'>00:00:02:124</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
 <div class="m-t-10 m-l-5"></div>
 </div>
@@ -282,91 +283,366 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>verificar os cadastrada por id</div>
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>pesquisar por todas as os cadastradas</div>
       </div>
     </div>
         <div class="collapse">
           <div class="card-body">
-              <div class="step pass-bg" title="com.automation.steps.ProcurarOsPorIdSteps.o_request_da_API_PROCURAR_OS_POR_ID(java.lang.String)">
-                <span>Given o request da API PROCURAR OS POR ID "procurar_os_por_id.json"</span>
-      <div>{
-  "id": 2
-}
+              <div class="step pass-bg" title="com.automation.steps.MostrarTodasOsSteps.a_API_MOSTRAR_TODAS_OS(java.lang.String)">
+                <span>Given a API MOSTRAR TODAS OS "MOSTRAR_TODAS_OS"</span>
+      <div>MOSTRAR_TODAS_OS
       </div>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="com.automation.steps.ProcurarOsPorIdSteps.o_sistema_envia_um_request_GET_na_API_PROCURAR_OS_POR_ID(java.lang.String)">
-                <span>When o sistema envia um request GET na API PROCURAR OS POR ID "PROCURAR_OS_POR_ID"</span>
-      <div>{
-    "id": 2,
-    "proprietario": "Fulano Beltrano",
-    "tipoEquipamento": "TV",
-    "entradaLab": "2025-02-20",
-    "defeito": "Tela quebrada",
-    "previsaoEntrega": "2025-02-21",
-    "statusConcerto": "Aguardando orçamento",
-    "observacoes": ""
-}
+              <div class="step pass-bg" title="com.automation.steps.MostrarTodasOsSteps.o_sistema_envia_um_request_GET_na_API_MOSTRAR_TODAS_OS()">
+                <span>When o sistema envia um request GET na API MOSTRAR TODAS OS</span>
+      <div>[
+    {
+        "id": 1,
+        "proprietario": "Fulano Beltrano",
+        "tipoEquipamento": "TV",
+        "entradaLab": "2025-02-20",
+        "defeito": "Tela quebrada",
+        "previsaoEntrega": "2025-02-21",
+        "statusConcerto": "Aguardando orçamento",
+        "observacoes": ""
+    },
+    {
+        "id": 2,
+        "proprietario": "Fulano Beltrano",
+        "tipoEquipamento": "TV",
+        "entradaLab": "2025-02-20",
+        "defeito": "Tela quebrada",
+        "previsaoEntrega": "2025-02-21",
+        "statusConcerto": "Aguardando orçamento",
+        "observacoes": ""
+    },
+    {
+        "id": 3,
+        "proprietario": "Fulano Beltrano",
+        "tipoEquipamento": "TV",
+        "entradaLab": "2025-02-20",
+        "defeito": "Tela quebrada",
+        "previsaoEntrega": "2025-02-21",
+        "statusConcerto": "Aguardando orçamento",
+        "observacoes": ""
+    },
+    {
+        "id": 4,
+        "proprietario": "Fulano Beltrano",
+        "tipoEquipamento": "TV",
+        "entradaLab": "2025-02-20",
+        "defeito": "Tela quebrada",
+        "previsaoEntrega": "2025-02-21",
+        "statusConcerto": "Aguardando orçamento",
+        "observacoes": ""
+    },
+    {
+        "id": 5,
+        "proprietario": "Fulano Beltrano",
+        "tipoEquipamento": "TV",
+        "entradaLab": "2025-02-20",
+        "defeito": "Tela quebrada",
+        "previsaoEntrega": "2025-02-21",
+        "statusConcerto": "Aguardando orçamento",
+        "observacoes": ""
+    },
+    {
+        "id": 6,
+        "proprietario": "Fulano Beltrano",
+        "tipoEquipamento": "TV",
+        "entradaLab": "2025-02-20",
+        "defeito": "Tela quebrada",
+        "previsaoEntrega": "2025-02-21",
+        "statusConcerto": "Aguardando orçamento",
+        "observacoes": ""
+    },
+    {
+        "id": 7,
+        "proprietario": "Fulano Beltrano",
+        "tipoEquipamento": "TV",
+        "entradaLab": "2025-02-20",
+        "defeito": "Tela quebrada",
+        "previsaoEntrega": "2025-02-21",
+        "statusConcerto": "Aguardando orçamento",
+        "observacoes": ""
+    },
+    {
+        "id": 8,
+        "proprietario": "Fulano Beltrano",
+        "tipoEquipamento": "TV",
+        "entradaLab": "2025-02-20",
+        "defeito": "Tela quebrada",
+        "previsaoEntrega": "2025-02-21",
+        "statusConcerto": "Aguardando orçamento",
+        "observacoes": ""
+    },
+    {
+        "id": 9,
+        "proprietario": "Fulano Beltrano",
+        "tipoEquipamento": "TV",
+        "entradaLab": "2025-02-20",
+        "defeito": "Tela quebrada",
+        "previsaoEntrega": "2025-02-21",
+        "statusConcerto": "Aguardando orçamento",
+        "observacoes": ""
+    },
+    {
+        "id": 10,
+        "proprietario": "Fulano Beltrano",
+        "tipoEquipamento": "TV",
+        "entradaLab": "2025-02-20",
+        "defeito": "Tela quebrada",
+        "previsaoEntrega": "2025-02-21",
+        "statusConcerto": "Aguardando orçamento",
+        "observacoes": ""
+    },
+    {
+        "id": 11,
+        "proprietario": "Fulano Beltrano",
+        "tipoEquipamento": "TV",
+        "entradaLab": "2025-02-20",
+        "defeito": "Tela quebrada",
+        "previsaoEntrega": "2025-02-21",
+        "statusConcerto": "Aguardando orçamento",
+        "observacoes": ""
+    },
+    {
+        "id": 12,
+        "proprietario": "Fulano Beltrano",
+        "tipoEquipamento": "TV",
+        "entradaLab": "2025-02-20",
+        "defeito": "Tela quebrada",
+        "previsaoEntrega": "2025-02-21",
+        "statusConcerto": "Aguardando orçamento",
+        "observacoes": ""
+    },
+    {
+        "id": 13,
+        "proprietario": "Fulano Beltrano",
+        "tipoEquipamento": "TV",
+        "entradaLab": "2025-02-20",
+        "defeito": "Tela quebrada",
+        "previsaoEntrega": "2025-02-21",
+        "statusConcerto": "Aguardando orçamento",
+        "observacoes": ""
+    },
+    {
+        "id": 14,
+        "proprietario": "Fulano Beltrano",
+        "tipoEquipamento": "TV",
+        "entradaLab": "2025-02-20",
+        "defeito": "Tela quebrada",
+        "previsaoEntrega": "2025-02-21",
+        "statusConcerto": "Aguardando orçamento",
+        "observacoes": ""
+    },
+    {
+        "id": 15,
+        "proprietario": "Fulano Beltrano",
+        "tipoEquipamento": "TV",
+        "entradaLab": "2025-02-20",
+        "defeito": "Tela quebrada",
+        "previsaoEntrega": "2025-02-21",
+        "statusConcerto": "Aguardando orçamento",
+        "observacoes": ""
+    },
+    {
+        "id": 16,
+        "proprietario": "Fulano Beltrano",
+        "tipoEquipamento": "TV",
+        "entradaLab": "2025-02-20",
+        "defeito": "Tela quebrada",
+        "previsaoEntrega": "2025-02-21",
+        "statusConcerto": "Aguardando orçamento",
+        "observacoes": ""
+    },
+    {
+        "id": 17,
+        "proprietario": "Fulano Beltrano",
+        "tipoEquipamento": "TV",
+        "entradaLab": "2025-02-20",
+        "defeito": "Tela quebrada",
+        "previsaoEntrega": "2025-02-21",
+        "statusConcerto": "Aguardando orçamento",
+        "observacoes": ""
+    },
+    {
+        "id": 18,
+        "proprietario": "Fulano Beltrano",
+        "tipoEquipamento": "TV",
+        "entradaLab": "2025-02-20",
+        "defeito": "Tela quebrada",
+        "previsaoEntrega": "2025-02-21",
+        "statusConcerto": "Aguardando orçamento",
+        "observacoes": ""
+    },
+    {
+        "id": 19,
+        "proprietario": "Fulano Beltrano",
+        "tipoEquipamento": "TV",
+        "entradaLab": "2025-02-20",
+        "defeito": "Tela quebrada",
+        "previsaoEntrega": "2025-02-21",
+        "statusConcerto": "Aguardando orçamento",
+        "observacoes": ""
+    },
+    {
+        "id": 20,
+        "proprietario": "Fulano Beltrano",
+        "tipoEquipamento": "TV",
+        "entradaLab": "2025-02-20",
+        "defeito": "Tela quebrada",
+        "previsaoEntrega": "2025-02-21",
+        "statusConcerto": "Aguardando orçamento",
+        "observacoes": ""
+    },
+    {
+        "id": 21,
+        "proprietario": "Fulano Beltrano",
+        "tipoEquipamento": "TV",
+        "entradaLab": "2025-02-20",
+        "defeito": "Tela quebrada",
+        "previsaoEntrega": "2025-02-21",
+        "statusConcerto": "Aguardando orçamento",
+        "observacoes": ""
+    },
+    {
+        "id": 22,
+        "proprietario": "Fulano Beltrano",
+        "tipoEquipamento": "TV",
+        "entradaLab": "2025-02-20",
+        "defeito": "Tela quebrada",
+        "previsaoEntrega": "2025-02-21",
+        "statusConcerto": "Aguardando orçamento",
+        "observacoes": ""
+    },
+    {
+        "id": 23,
+        "proprietario": "Fulano Beltrano",
+        "tipoEquipamento": "TV",
+        "entradaLab": "2025-02-20",
+        "defeito": "Tela quebrada",
+        "previsaoEntrega": "2025-02-21",
+        "statusConcerto": "Aguardando orçamento",
+        "observacoes": ""
+    },
+    {
+        "id": 24,
+        "proprietario": "Fulano Beltrano",
+        "tipoEquipamento": "TV",
+        "entradaLab": "2025-02-20",
+        "defeito": "Tela quebrada",
+        "previsaoEntrega": "2025-02-21",
+        "statusConcerto": "Aguardando orçamento",
+        "observacoes": ""
+    },
+    {
+        "id": 25,
+        "proprietario": "Fulano Beltrano",
+        "tipoEquipamento": "TV",
+        "entradaLab": "2025-02-20",
+        "defeito": "Tela quebrada",
+        "previsaoEntrega": "2025-02-21",
+        "statusConcerto": "Aguardando orçamento",
+        "observacoes": ""
+    },
+    {
+        "id": 26,
+        "proprietario": "Fulano Beltrano",
+        "tipoEquipamento": "TV",
+        "entradaLab": "2025-02-20",
+        "defeito": "Tela quebrada",
+        "previsaoEntrega": "2025-02-21",
+        "statusConcerto": "Aguardando orçamento",
+        "observacoes": ""
+    },
+    {
+        "id": 27,
+        "proprietario": "Fulano Beltrano",
+        "tipoEquipamento": "TV",
+        "entradaLab": "2025-02-20",
+        "defeito": "Tela quebrada",
+        "previsaoEntrega": "2025-02-21",
+        "statusConcerto": "Aguardando orçamento",
+        "observacoes": ""
+    },
+    {
+        "id": 28,
+        "proprietario": "Fulano Beltrano",
+        "tipoEquipamento": "TV",
+        "entradaLab": "2025-02-20",
+        "defeito": "Tela quebrada",
+        "previsaoEntrega": "2025-02-21",
+        "statusConcerto": "Aguardando orçamento",
+        "observacoes": ""
+    },
+    {
+        "id": 29,
+        "proprietario": "Fulano Beltrano",
+        "tipoEquipamento": "TV",
+        "entradaLab": "2025-02-20",
+        "defeito": "Tela quebrada",
+        "previsaoEntrega": "2025-02-21",
+        "statusConcerto": "Aguardando orçamento",
+        "observacoes": ""
+    }
+]
       </div>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="com.automation.steps.ProcurarOsPorIdSteps.o_status_code_da_API_PROCURAR_OS_POR_ID_retorna(java.lang.Integer)">
-                <span>Then o status code da API PROCURAR OS POR ID retorna 200</span>
+              <div class="step pass-bg" title="com.automation.steps.MostrarTodasOsSteps.o_status_code_da_API_MOSTRAR_TODAS_OS_retorna(java.lang.Integer)">
+                <span>Then o status code da API MOSTRAR TODAS OS retorna 200</span>
       <div>200
       </div>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="com.automation.steps.ProcurarOsPorIdSteps.o_response_body_da_API_PROCURAR_OS_POR_ID_confere_com_o_JSON(java.lang.String)">
-                <span>And o response body da API PROCURAR OS POR ID confere com o JSON "procurar_os_por_id"</span>
+              <div class="step pass-bg" title="com.automation.steps.MostrarTodasOsSteps.o_response_body_da_API_MOSTRAR_TODAS_OS_confere_com_o_JSON(java.lang.String)">
+                <span>And o response body da API MOSTRAR TODAS OS confere com o JSON "mostrar_todas_os"</span>
       <div>{
     "$schema": "https://json-schema.org/draft/2019-09/schema",
-    "type": "object",
-    "default": {},
-    "required": [
-        "id",
-        "proprietario",
-        "tipoEquipamento",
-        "entradaLab",
-        "defeito",
-        "previsaoEntrega",
-        "statusConcerto",
-        "observacoes"
-    ],
-    "properties": {
-        "id": {
-            "type": "integer",
-            "default": 0
-        },
-        "proprietario": {
-            "type": "string",
-            "default": ""
-        },
-        "tipoEquipamento": {
-            "type": "string",
-            "default": ""
-        },
-        "entradaLab": {
-            "type": "string",
-            "default": ""
-        },
-        "defeito": {
-            "type": "string",
-            "default": ""
-        },
-        "previsaoEntrega": {
-            "type": "string",
-            "default": ""
-        },
-        "statusConcerto": {
-            "type": "string",
-            "default": ""
-        },
-        "observacoes": {
-            "type": "string",
-            "default": ""
+    "type": "array",
+    "default": [],
+    "items": {
+        "type": "object",
+        "required": [
+            "id",
+            "proprietario",
+            "tipoEquipamento",
+            "entradaLab",
+            "defeito",
+            "previsaoEntrega",
+            "statusConcerto",
+            "observacoes"
+        ],
+        "properties": {
+            "id": {
+                "type": "integer"
+            },
+            "proprietario": {
+                "type": "string"
+            },
+            "tipoEquipamento": {
+                "type": "string"
+            },
+            "entradaLab": {
+                "type": "string"
+            },
+            "defeito": {
+                "type": "string"
+            },
+            "previsaoEntrega": {
+                "type": "string"
+            },
+            "statusConcerto": {
+                "type": "string"
+            },
+            "observacoes": {
+                "type": "string"
+            }
         }
     }
 }
@@ -402,12 +678,12 @@ eventsCount: 5,
 <span class="meta">
 <span class='badge log pass-bg'>1</span>
 </span>
-<p class="name">@procurar_os_por_id</p>
+<p class="name">@mostrar_todas_os</p>
 <p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>@procurar_os_por_id</h4>
+<h4>@mostrar_todas_os</h4>
 <span status="pass" class='badge log pass-bg'>1 passed</span>
 </div>
 <table class='table table-sm mt-4'>
@@ -421,11 +697,11 @@ eventsCount: 5,
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>22:55:31 PM</td>
+<td>13:24:18 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='2'>verificar os cadastrada por id</a>
+<a href="#" class="linked" test-id='1' id='2'>pesquisar por todas as os cadastradas</a>
 <div class="">
-<span class="badge badge-default">procurar_os_por_id.verificar os cadastrada por id</span>
+<span class="badge badge-default">mostrar_todas_os.pesquisar por todas as os cadastradas</span>
 </div>
 </td>
 </tr>
@@ -445,6 +721,6 @@ eventsCount: 5,
       </div>
     </div>
   </div>
-<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c05cd28cde1617b9d0c05a831daff6cb97fd9fd5/spark/js/spark-script.js"></script>
 <script type="text/javascript"></script></body>
 </html>

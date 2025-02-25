@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: Cucumber
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in Cucumber
+Cucumber.Cucumber  Time elapsed: 0 s  <<< ERROR!
+org.junit.platform.commons.JUnitException: TestEngine with ID 'cucumber' failed to execute tests
+Caused by: java.lang.NoClassDefFoundError: io/cucumber/core/runtime/TypeRegistryConfigurerSupplier
+Caused by: java.lang.ClassNotFoundException: io.cucumber.core.runtime.TypeRegistryConfigurerSupplier
+
